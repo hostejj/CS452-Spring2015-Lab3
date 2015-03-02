@@ -20,16 +20,16 @@ Use a perspective projection matrix.
 Requirements:
 1. vertex coordinates are not in the default range - a (non identity) Model-View matrix is required.
 
-2. use webgl-utils.js, initShaders.js and MV.js from Angel
+2. use webgl-utils.js, initShaders.js and MV.js from Angel // 
 
 3. three files are required in the solution: lab3.html, lab3.js and lab3.README.txt. The lab3.README.txt file
 will contain your name and date along with a brief description of your solution. Note, however, that all
-files should contain a comment including your name and date.
+files should contain a comment including your name and date. // 
 
 4. add a light, and use the modified Phong lighting model. It's your choice about whether to compute
-the lighting in the vertex shader or the fragment shader
+the lighting in the vertex shader or the fragment shader //
 
-5. interact with your object with the arrow keys as described above.
+5. interact with your object with the arrow keys as described above. // 
 
-6. use a perspective projection matrix (you determine the properties)
+6. use a perspective projection matrix (you determine the properties) //
 

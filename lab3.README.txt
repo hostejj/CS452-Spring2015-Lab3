@@ -1,1 +1,26 @@
-name, date, description
+Name: Johnathon Hoste
+Date: 2/28/15
+Description: Lab3
+
+I'll break my solution down into parts that address the corresponding problems giving in the lab.txt file.
+
+1 (Vertex coordinates not default)
+I used a coordinate system from -10 to +10 and scaled it by scaling the model view matrix.
+
+2 (Use angel's utilities)
+I used angel's utilities for his vec and mat functions as well as rotation and view projection.
+
+3 (Files)
+The three files all have a comment.
+
+4 (Phong Lighting)
+I used a modified Phong lighting model based on some of the examples done by angel. I choose to
+compute the lighting inside the vertex-shader instead of the fragment shader.
+
+5 (Interaction) 
+I set up the interaction as specified by setting up a small state machine in the JavaScript that causes
+rotation to spin directionally based on the state. Additionally I created a pause state to freeze the
+object with the "P" key on the keyboard.
+
+6 (Projection Matrix)
+I used angel's "ortho" utility to create the projection matrix for my solution.
